@@ -1,0 +1,8 @@
+
+# Nested git worktrees / repos (don't embed)
+**/.claude/worktrees/
+**/worktrees/
+
+# Python caches
+**/__pycache__/
+*.pyc
