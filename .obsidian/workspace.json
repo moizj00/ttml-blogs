@@ -1,0 +1,283 @@
+{
+  "main": {
+    "id": "5bbdf6aff3726422",
+    "type": "split",
+    "children": [
+      {
+        "id": "518292abaf480f2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f7f6b0da985c70e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-05-31.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "2026-05-31"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c2186212d731e98",
+    "type": "split",
+    "children": [
+      {
+        "id": "58a9f2056f4b247a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09106b94cdbb0fe6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8b07babcc7e48f1d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"source\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "65cbaf1c8207fadb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "95852277dd65b5e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "fed938396a28e505",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f12f0bf37a5b660c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Clippings/03-Genres/social-shortform.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for social-shortform"
+            }
+          },
+          {
+            "id": "39fb6771db9ce84b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "9a0a1e5734ee011f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d121d5237b589b08",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c27e1d12ab805b96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2026-05-31.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-05-31"
+            }
+          },
+          {
+            "id": "3b4e5d555b1ac976",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "2026-05-31.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "c573f21232e23e8d",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "53fe19fbaea6bdbd",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 474.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "omnisearch:Omnisearch": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-importer:Open Importer": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "1f7f6b0da985c70e",
+  "lastOpenFiles": [
+    "2026-05-31.md",
+    "copilot/copilot-conversations/Notes_Insights_on_Topic@20260531_165450.md",
+    "copilot/copilot-conversations/Question_Mark_Query@20260531_104326.md",
+    "Clippings/03-Genres/social-shortform.md",
+    "Clippings/_publishing-tracker.md",
+    "Clippings/07-Foundation/03-legal-explainer-pattern.md",
+    "TTML-Blog/2026-05-31-they-priced-your-silence.md",
+    "TTML-Blog/2026-05-29-what-is-california-consumer-legal-remedies-act-clra.md",
+    "TTML-Blog/2026-05-29-subscription-auto-renewal-refunds-california-law-2026.md",
+    "TTML-Blog/2026-05-29-small-claims-vs-consumer-complaint-vs-demand-letter-california.md",
+    "TTML-Blog/2026-05-29-refund-after-return-window-closed-california.md",
+    "TTML-Blog/2026-05-28-received-demand-letter-what-to-do-california.md",
+    "TTML-Blog/2026-05-28-real-cost-demand-letter-california-199-vs-580-vs-1375.md",
+    "TTML-Blog/2026-05-28-is-demand-letter-required-before-small-claims-california.md",
+    "TTML-Blog/2026-05-28-how-to-sue-someone-who-owes-you-money-california.md",
+    "TTML-Blog/2026-05-28-double-damages-unpaid-freelance-work-sb-988-california.md",
+    "TTML-Blog/2026-05-28-demand-letter-vs-cease-and-desist-difference-california.md",
+    "TTML-Blog/2026-05-28-contractor-took-money-didnt-finish-job-california-legal-options.md",
+    "TTML-Blog/2026-05-27-amazon-brand-registry-vs-attorney-letter-vs-lawsuit-counterfeits-california.md",
+    "TTML-Blog/2026-05-26-write-own-demand-letter-vs-lawyer-california.md",
+    "TTML-Blog/2026-05-26-what-is-legal-letter-to-get-money-back-california.md",
+    "TTML-Blog/2026-05-26-what-is-final-demand-letter-before-legal-action-california.md",
+    "TTML-Blog/2026-05-26-what-happens-when-you-send-a-demand-letter-from-a-lawyer-california.md",
+    "TTML-Blog/2026-05-26-how-to-write-letter-to-someone-who-owes-you-money-california.md",
+    "TTML-Blog/2026-05-26-how-to-write-demand-letter-california-step-by-step.md",
+    "TTML-Blog/2026-05-26-how-much-does-demand-letter-cost-california-2026.md",
+    "TTML-Blog",
+    "Recording 20260531114113.m4a",
+    "copilot/copilot-custom-prompts",
+    "copilot/copilot-conversations",
+    "copilot",
+    "Clippings/Pulitzer Award-Winning Nonfiction Style Kit.md.tmp.12560.b8aa513a042d",
+    "Clippings/Pulitzer Award-Winning Nonfiction Style Kit.md.tmp.12560.2633664a1b59",
+    "CLAUDE.md.tmp.12560.62694ae10ec0",
+    "_movetest",
+    "Clippings/_publishing-tracker.md.tmp.10056.9646036f28f1",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

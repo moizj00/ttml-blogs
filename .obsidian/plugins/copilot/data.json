@@ -78,7 +78,9 @@
       ],
       "apiKey": "",
       "enableCors": false,
-      "maxTokens": 6300
+      "maxTokens": 6300,
+      "frequencyPenalty": 0,
+      "reasoningEffort": "high"
     },
     {
       "name": "gpt-5.5",
