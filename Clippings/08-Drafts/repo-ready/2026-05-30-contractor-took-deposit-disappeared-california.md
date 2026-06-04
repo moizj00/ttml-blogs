@@ -1,14 +1,18 @@
 ---
-title: 'He Took the Deposit and the Kitchen Was Still Studs'
+title: He Took the Deposit and the Kitchen Was Still Studs
 slug: contractor-took-deposit-disappeared-california
-category: contract-disputes
+category: demand-for-payment
 status: published
 date: 2026-05-30
 author: TTML Legal Team
-excerpt: >-
-  A California contractor who takes a big deposit and disappears has likely already broken the law — the down-payment cap is $1,000 or 10%. The leverage you hold and the letter that gets your money back.
-description: >-
-  In California a contractor can take only $1,000 or 10% as a down payment. If yours took more and disappeared, here's the leverage you hold and the demand letter that works.
+excerpt: A California contractor who takes a big deposit and disappears has likely already broken the law — the down-payment cap is $1,000 or 10%. The leverage you hold and the letter that gets your money back.
+description: In California a contractor can take only $1,000 or 10% as a down payment. If yours took more and disappeared, here's the leverage you hold and the demand letter that works.
+tags:
+  - demand-for-payment
+  - contractor-dispute
+  - california
+  - consumer-rights
+  - demand-letter
 ---
 
 # He Took the Deposit and the Kitchen Was Still Studs

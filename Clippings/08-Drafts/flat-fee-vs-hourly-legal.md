@@ -1,13 +1,18 @@
 ---
 slug: billable-hour-tax-on-your-anxiety
-title: "The Billable Hour Is a Tax on Your Anxiety"
-description: "Why the hourly legal model fails everyday disputes — and how a known, flat fee changes the incentives, removes the dread, and gets ordinary legal letters written and sent."
-lens: "Argument / Cultural Analysis"
-category: general
-tags: ["flat fee", "legal fees", "billable hour", "access to justice"]
+title: The Billable Hour Is a Tax on Your Anxiety
+description: Why the hourly legal model fails everyday disputes — and how a known, flat fee changes the incentives, removes the dread, and gets ordinary legal letters written and sent.
+lens: Argument / Cultural Analysis
+category: pre-litigation-settlement
+tags:
+  - pre-litigation-settlement
+  - flat-fee
+  - legal-fees
+  - billable-hour
+  - access-to-justice
 status: published
 created: 2026-05-30
-target_keyword: "flat fee legal letter vs hourly lawyer"
+target_keyword: flat fee legal letter vs hourly lawyer
 ---
 
 # The Billable Hour Is a Tax on Your Anxiety

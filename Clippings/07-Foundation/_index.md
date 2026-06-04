@@ -35,3 +35,11 @@ Beyond the inner-circle 10, see [[_library-index|the Library]] — ~100 curated 
 
 ## To fill the empty slots
 See [[_intake]]. Drop a piece in, tell the agent "add this to Foundation-10 as entry NN," and it'll build the full entry (text + notes) using [[_TEMPLATE]].
+
+
+
+## Fine-Tune Gold Gate
+
+[[TTML-Fine-Tune-Gold-Rubric]] — the non-negotiable 5-point checklist and anti-pattern filter for any TTML content used as training data for local models. Lives alongside the Foundation canon because it protects the voice at the source.
+
+- [[TTML-Fine-Tune-Project]] — hub for the local Qwen fine-tune work. Links to the rubric (the voice gate) and the live gold curation report.

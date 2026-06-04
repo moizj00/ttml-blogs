@@ -26,6 +26,8 @@
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
     "source": "text",
-    "description": "text"
+    "description": "text",
+    "project": "text",
+    "status": "text"
   }
 }

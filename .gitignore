@@ -6,3 +6,14 @@
 # Python caches
 **/__pycache__/
 *.pyc
+
+# Obsidian UI state / churn (not content)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
+
+# OS + secrets (never commit)
+.DS_Store
+.env
+*.env
+.ttml-publish-key

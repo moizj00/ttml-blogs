@@ -14,3 +14,8 @@ This is the feedback loop that makes the KB compound. After a piece, jot what wo
 ## Promoted patterns
 <!-- When a learning becomes a rule, record it here and add it to the rule file. -->
 - _(none yet)_
+
+- 2026-06-03 -- Filed 3 demand-letter posts (unpaid invoice, landlord repairs, medical bill in collections) into TTML-Blog via the official obsidian CLI (create with 
+-encoded content). All status: draft, legal_review: pending, citations flagged for attorney check. Medical-collections fills a content gap; the other two join existing clusters.
+- 2026-06-03 -- Added a 4th post via obsidian CLI: wedding/event vendor deposit recovery (gap-filler, kept statute-light on purpose). 4 total today, all draft + legal_review pending.
+- 2026-06-03 -- 3 more gap-filler posts via obsidian CLI: roommate unpaid rent share, late final paycheck (LC 201-203 waiting-time penalty), movers damaged/hostage goods. 7 posts total today, all draft + legal_review pending.

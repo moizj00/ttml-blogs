@@ -1,14 +1,18 @@
 ---
-title: 'The Billable Hour Is a Tax on Your Anxiety'
+title: The Billable Hour Is a Tax on Your Anxiety
 slug: billable-hour-vs-flat-fee-legal
-category: pricing-and-roi
+category: pre-litigation-settlement
 status: published
 date: 2026-05-30
 author: TTML Legal Team
-excerpt: >-
-  Why the hourly legal model fails everyday disputes — and how a known, flat fee changes the incentives, removes the dread, and gets ordinary legal letters written and sent.
-description: >-
-  The billable hour rewards slowness and scares people out of acting. For everyday disputes, a flat-fee legal letter is cheaper, faster, and predictable. Here's why.
+excerpt: Why the hourly legal model fails everyday disputes — and how a known, flat fee changes the incentives, removes the dread, and gets ordinary legal letters written and sent.
+description: The billable hour rewards slowness and scares people out of acting. For everyday disputes, a flat-fee legal letter is cheaper, faster, and predictable. Here's why.
+tags:
+  - pre-litigation-settlement
+  - flat-fee
+  - legal-fees
+  - billable-hour
+  - access-to-justice
 ---
 
 # The Billable Hour Is a Tax on Your Anxiety

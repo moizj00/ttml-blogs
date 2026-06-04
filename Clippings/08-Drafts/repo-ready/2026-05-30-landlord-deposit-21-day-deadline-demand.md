@@ -1,14 +1,18 @@
 ---
-title: 'Day 22: What to Do When Your California Landlord Misses the 21-Day Deposit Deadline'
+title: "Day 22: What to Do When Your California Landlord Misses the 21-Day Deposit Deadline"
 slug: landlord-deposit-21-day-deadline-demand
-category: landlord-tenant
+category: property-and-lease-issues
 status: published
 date: 2026-05-30
 author: TTML Legal Team
-excerpt: >-
-  On day 22, California law has already shifted in your favor. The 21-day rule, what counts as a legal deduction, the 2026 e-refund rule, and the demand letter that gets your deposit back.
-description: >-
-  California landlords have 21 calendar days to return your deposit or itemize deductions. Here's the law, the 2026 electronic-refund rule, and the demand letter that works.
+excerpt: On day 22, California law has already shifted in your favor. The 21-day rule, what counts as a legal deduction, the 2026 e-refund rule, and the demand letter that gets your deposit back.
+description: California landlords have 21 calendar days to return your deposit or itemize deductions. Here's the law, the 2026 electronic-refund rule, and the demand letter that works.
+tags:
+  - property-and-lease-issues
+  - security-deposit
+  - landlord-tenant
+  - california
+  - demand-letter
 ---
 
 # Your California Landlord Has 21 Days to Return Your Deposit. Here's What to Do When They Don't.

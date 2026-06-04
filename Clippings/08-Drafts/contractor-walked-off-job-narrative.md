@@ -1,14 +1,19 @@
 ---
 slug: contractor-took-deposit-kitchen-still-studs
-title: "He Took the Deposit and the Kitchen Was Still Studs"
-description: "A California contractor who takes a big deposit and disappears has likely already broken the law — the down-payment cap is $1,000 or 10%. Here's the leverage you hold and the letter that gets your money back."
-lens: "Narrative Feature → Service turn"
-category: general
-tags: ["contractor dispute", "california", "consumer rights", "demand letter"]
+title: He Took the Deposit and the Kitchen Was Still Studs
+description: A California contractor who takes a big deposit and disappears has likely already broken the law — the down-payment cap is $1,000 or 10%. Here's the leverage you hold and the letter that gets your money back.
+lens: Narrative Feature → Service turn
+category: demand-for-payment
+tags:
+  - demand-for-payment
+  - contractor-dispute
+  - california
+  - consumer-rights
+  - demand-letter
 status: published
 created: 2026-05-30
-target_keyword: "contractor took deposit didn't finish work california"
-note: "Opening scene is an illustrative composite, not a real named person. No real individuals depicted."
+target_keyword: contractor took deposit didn't finish work california
+note: Opening scene is an illustrative composite, not a real named person. No real individuals depicted.
 ---
 
 # He Took the Deposit and the Kitchen Was Still Studs

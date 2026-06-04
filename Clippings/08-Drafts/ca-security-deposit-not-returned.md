@@ -1,17 +1,22 @@
 ---
 slug: california-landlord-21-days-return-security-deposit
-title: "Your California Landlord Has 21 Days to Return Your Deposit. Here's What to Do When They Don't."
-description: "California landlords have 21 calendar days to return your security deposit or send an itemized statement. Here's the law, what counts as a legal deduction, and the demand-letter steps that get your money back."
-lens: "Service / Explainer (with a narrative open)"
-category: general
-tags: ["security deposit", "california", "tenant rights", "demand letter"]
+title: Your California Landlord Has 21 Days to Return Your Deposit. Here's What to Do When They Don't.
+description: California landlords have 21 calendar days to return your security deposit or send an itemized statement. Here's the law, what counts as a legal deduction, and the demand-letter steps that get your money back.
+lens: Service / Explainer (with a narrative open)
+category: property-and-lease-issues
+tags:
+  - property-and-lease-issues
+  - security-deposit
+  - landlord-tenant
+  - california
+  - demand-letter
 status: published
 created: 2026-05-30
-target_keyword: "landlord didn't return security deposit california"
+target_keyword: landlord didn't return security deposit california
 sources:
-  - "https://selfhelp.courts.ca.gov/security-deposits"
-  - "https://tenantsguide.lsnc.net/security-deposits/"
-  - "Cal. Civ. Code § 1950.5"
+  - https://selfhelp.courts.ca.gov/security-deposits
+  - https://tenantsguide.lsnc.net/security-deposits/
+  - Cal. Civ. Code § 1950.5
 ---
 
 # Your California Landlord Has 21 Days to Return Your Deposit. Here's What to Do When They Don't.
