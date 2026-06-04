@@ -19,7 +19,7 @@ import re
 from pathlib import Path
 from datetime import datetime
 
-DEFAULT_CLAUDE_DIR = r"C:\Users\moizjmj\ttml-app-work\.claude"
+DEFAULT_CLAUDE_DIR = str(Path(__file__).resolve().parent.parent / ".claude")
 DAILY_PATTERN = re.compile(r"^daily-titles-(\d{4}-\d{2}-\d{2})\.md$")
 
 

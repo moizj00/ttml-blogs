@@ -42,7 +42,7 @@ def publish(path, key):
 def main():
     key = load_key()
     today = dt.date.today().strftime("%Y-%m-%d")
-    blog_dir = Path(r"C:\Users\moizjmj\ttml-app-work\blog")
+    blog_dir = Path(__file__).resolve().parent.parent / "TTML-Blog"
     files = sorted(blog_dir.glob(f"{today}-*.md"))
     if not files:
         sys.exit(f"No files for {today}")
