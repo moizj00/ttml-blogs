@@ -3,12 +3,12 @@
 All harvested blog title candidates, grouped by date only.
 Newest date appears first. Single source of truth — per-day files are merged in and removed.
 
-_Last synced: 2026-06-05 02:38:58_
+_Last synced: 2026-06-05 02:47:49_
 
 ---
 
 ## 2026-06-05
-harvested_at: 2026-06-05T02:38:57.867535 | total_harvested: 98 | by_source: {'reddit': 53, 'findquestions': 25, 'alsoasked': 20, 'google_news': 0}
+harvested_at: 2026-06-05T02:47:49.168455 | total_harvested: 95 | by_source: {'reddit': 53, 'findquestions': 22, 'alsoasked': 20, 'google_news': 0}
 
 1. Orange County - not renewing when lease is up so son can move in, advice?
 2. What are the chances of my neighbors being evicted?

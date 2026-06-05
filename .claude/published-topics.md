@@ -207,3 +207,16 @@ Agent: check this file before writing to avoid duplicate topics.
 - False Advertising and Bait-and-Switch in California: Your Consumer Rights Under the UCL and CLRA (2026) (LONG)
 - Where to File a Consumer Complaint in California (2026): DCA, the Attorney General, the BBB, and When to Hire a Lawyer (LONG)
 - How to Get a Refund From a Business That Closed or Went Bankrupt in California (2026) (LONG)
+
+
+## 2026-06-04 (backfill - Thursday - Freelancer / Unpaid Invoices / B2B)
+- Are Late Fees on Invoices Enforceable in California? (SHORT)
+- No Written Contract? You Can Still Collect From a Client in California (SHORT)
+- A Client Ghosted You After Final Delivery in California (SHORT)
+- Retainer Dispute: Client Wants a Refund but You've Done the Work (SHORT)
+- Net-30 vs. Net-60 Invoice Terms and When to Escalate (SHORT)
+- Statute of Limitations on Unpaid Invoices in California 2026 (LONG)
+- How to Document an Unpaid-Invoice Claim Before Sending a Demand (LONG)
+- Interest on Unpaid Business Debts in California: Prejudgment Interest (LONG)
+- When a Client Disputes Your Work Quality to Avoid Paying (LONG)
+- The B2B Collections Playbook for Small Agencies in California 2026 (LONG)
