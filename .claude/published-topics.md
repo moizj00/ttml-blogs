@@ -194,3 +194,16 @@ Agent: check this file before writing to avoid duplicate topics.
 - Counterfeit Goods on Walmart Marketplace and TikTok Shop: A California Seller's Removal Playbook (2026) (LONG)
 - Trademark Opposition and Cancellation: How to Challenge Someone Else's Mark in California (2026) (LONG)
 - How to Respond if You Receive a Trademark or Counterfeit Cease and Desist Letter as a California Seller (2026) (LONG)
+
+
+## 2026-06-05 (Friday — Consumer Complaints / Refunds)
+- A Repair Shop Is Holding My Car Over a Disputed Bill in California — Is That Legal? (SHORT)
+- My Gift Card or Store Credit 'Expired' in California — Does the Business Have to Honor It? (SHORT)
+- A Moving Company Damaged My Belongings or Is Holding Them Hostage in California — What Can I Do? (SHORT)
+- A Debt Collector Is Harassing Me in California — What Are My Rights Under the Rosenthal Act? (SHORT)
+- What Is a Consumer Warranty Demand Letter and When Should You Send One in California? (SHORT)
+- California Lemon Law Explained (2026): The Song-Beverly Act and How to Get a Refund or Replacement for a Defective Vehicle (LONG)
+- California's Junk Fee Ban (SB 478) Explained: What the Hidden-Fee Rules Mean for Consumers in 2026 (LONG)
+- False Advertising and Bait-and-Switch in California: Your Consumer Rights Under the UCL and CLRA (2026) (LONG)
+- Where to File a Consumer Complaint in California (2026): DCA, the Attorney General, the BBB, and When to Hire a Lawyer (LONG)
+- How to Get a Refund From a Business That Closed or Went Bankrupt in California (2026) (LONG)
