@@ -50,3 +50,45 @@ PowerShell helpers also live in `scripts/` (`boot-readiness.ps1`,
   non-note files like everything in `.claude/`.
 - Keep `__pycache__/` gitignored; never run note ops on `Clippings/08-Drafts/`
   build artifacts.
+
+## Blog Creation Master — self-learning review loop
+**Charter.** A recurring reviewer that reads live posts on
+`talk-to-my-lawyer.com/blog`, critiques them against this vault's craft
+standards (`Clippings/02-Rules/anti-ai-tells.md`,
+`Clippings/01-Voice/voice-fingerprint.md`), and records remarks here so future
+drafting improves. Steady-state job each tick = review a *rotating* subset of
+posts and append a dated entry below. Heavier tools (`/deep-research`, the
+`blog` skill) are invoked **selectively** — only when a review surfaces a gap
+worth deeper work — to control cost. The loop self-paces via a persistent
+Monitor heartbeat (~4h); stop it with TaskStop. Each entry is committed + pushed
+so learnings survive container reclaim. (Durable cross-session scheduling would
+need a GitHub Action — the in-session Monitor dies if the container is reclaimed.)
+
+### Review log (newest first)
+
+#### 2026-06-06 — Cycle 1 · dog-bite, friend-loan, ex-employer non-compete
+**Verdict: craft discipline is strong; one systemic weakness to fix.**
+- ✅ **Hooks** — all three open with a concrete, direct answer, zero
+  throat-clearing: _"California dog owners are strictly liable under Civil Code
+  § 3342."_ · _"Yes — an attorney demand letter can recover a personal loan in
+  California."_ · _"Almost certainly not — and the letter itself may be unlawful."_
+- ✅ **Sentence rhythm** — strong fragment ↔ long-compound variation throughout.
+- ✅ **AI-tell vocabulary** — effectively absent. The anti-ai-tells gate is holding.
+- ✅ **Specificity** — real statutes, dollar caps, deadlines (_"$12,500"_,
+  _"CCP § 337"_, _"10–14 days"_).
+- ❌ **Endings collapse into boilerplate** — every post ends on the legal
+  disclaimer or a bare cross-reference, not a landing. Directly violates
+  voice-fingerprint §7 ("Endings turn, not summarize"). **#1 fix.**
+- ❌ **Rhetorical repetition** — dog-bite hammers "insurer's first offer" ~3×
+  without deepening the point.
+- ❌ **Citation density** — the non-compete piece stacks §16600 / 16600.5 /
+  16601 with no plain-language bridge between cites.
+
+**Learnings to feed back into drafting:**
+1. Require a real **ending turn** before the disclaimer — a concrete last image
+   or quiet landing. The disclaimer is boilerplate that *follows* the close, never *is* it.
+2. Cap a single tactical theme at ~2 mentions; a third should deepen with a new
+   example, not restate.
+3. When citing 3+ statutes in a row, bridge each with one plain-language clause.
+
+_Next cycle: rotate to the NDA, HOA/Davis-Stirling, and AB 1482 posts._
