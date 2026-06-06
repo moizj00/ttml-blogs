@@ -233,3 +233,16 @@ Agent: check this file before writing to avoid duplicate topics.
 - Owner Move-In Eviction Rules in California 2026 (LONG)
 - Eviction Notice Types in California: 3/30/60/90-Day Explained (LONG)
 - How to Remove a Squatter in California 2026 (LONG)
+
+
+## 2026-06-06 (Saturday — Letter Deep-Dives)
+- I Lent Money to a Friend and They Won't Pay Me Back — Can a Lawyer's Letter Help in California? (SHORT)
+- What Is a Defamation Cease and Desist Letter and When Does It Work in California? (SHORT)
+- My Ex Won't Return My Belongings in California — Can a Demand Letter Get My Property Back? (SHORT)
+- I Got a Cease and Desist From My Old Employer in California — Is My Non-Compete Even Enforceable? (SHORT)
+- Demand Letter vs. Police Report: Which Should You Use for a Property or Money Dispute in California? (SHORT)
+- How to Write a Demand Letter to a Business Partner Who Owes You Money in California (2026) (LONG)
+- Cease and Desist Letters for Harassment in California (2026): What They Can Do — and When You Need a Restraining Order Instead (LONG)
+- The California Homeowner's Guide to HOA Dispute Letters (2026): Fines, Repairs, and Your Rights Under the Davis-Stirling Act (LONG)
+- Dog Bite Demand Letters in California (2026): Strict Liability, Damages, and How to Get the Owner's Insurance to Pay (LONG)
+- Demand Letters for Breach of an NDA in California (2026): Trade Secrets, Confidentiality, and What You Can Actually Recover (LONG)
