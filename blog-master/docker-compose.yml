@@ -1,0 +1,21 @@
+# Run the TTML Blog Master durably on an always-on host:
+#   cp .env.example .env   # then fill in ANTHROPIC_API_KEY and GH_TOKEN
+#   docker compose up -d --build
+# It reviews the blog once a day (DAILY_UTC_HOUR) and pushes remarks to memory.md.
+services:
+  blog-master:
+    build: .
+    image: ttml-blog-master:latest
+    container_name: ttml-blog-master
+    restart: always
+    env_file: .env            # ANTHROPIC_API_KEY + GH_TOKEN live here (gitignored)
+    environment:
+      BLOG_REPO: moizj00/ttml-blogs
+      BLOG_BRANCH: master     # branch the memory file lives on (after the PR merges)
+      DAILY_UTC_HOUR: "13"    # 13:00 UTC daily
+      RUN_ON_START: "false"   # set true to run one review immediately on `up`
+    volumes:
+      - blog-master-work:/work   # persistent checkout between runs
+
+volumes:
+  blog-master-work:

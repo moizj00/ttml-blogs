@@ -59,10 +59,16 @@ standards (`Clippings/02-Rules/anti-ai-tells.md`,
 drafting improves. Steady-state job each tick = review a *rotating* subset of
 posts and append a dated entry below. Heavier tools (`/deep-research`, the
 `blog` skill) are invoked **selectively** — only when a review surfaces a gap
-worth deeper work — to control cost. The loop self-paces via a persistent
-Monitor heartbeat (~4h); stop it with TaskStop. Each entry is committed + pushed
-so learnings survive container reclaim. (Durable cross-session scheduling would
-need a GitHub Action — the in-session Monitor dies if the container is reclaimed.)
+worth deeper work — to control cost. Each entry is committed + pushed so
+learnings persist.
+
+**How it runs (durable).** Packaged as a Docker container in `blog-master/` that
+runs the `claude` CLI headless once a day on an always-on host: it syncs the
+repo, reviews via `blog-master/review-prompt.md`, and pushes remarks here. See
+`blog-master/README.md`. Cadence: **daily, deeper** — each cycle reviews a
+rotating subset of 3 posts and does a citation-check deep-dive on the weakest.
+(An in-session Monitor heartbeat was the earlier stopgap; superseded by the
+container because an in-session loop dies on container reclaim.)
 
 ### Review log (newest first)
 
