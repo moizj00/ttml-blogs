@@ -1,0 +1,52 @@
+# TTML Blogs — Memory
+
+Operational memory for the **ttml-blogs** Obsidian vault (this repo). Scope is
+blog work only — vault mechanics, the publishing pipeline, and the Python
+tooling. Anything about the `ttml-app` LangGraph/letter pipeline lives in that
+separate repo and is intentionally **not** recorded here.
+
+_Last updated: 2026-06-06_
+
+## What this repo is
+- An Obsidian vault. Authored content lives under `Clippings/` (numbered pipeline
+  `01-Voice` → `08-Drafts`); the vault root holds only daily notes (`YYYY-MM-DD.md`).
+- Published/working blog posts live under `TTML-Blog/` (~207 files as of this note).
+- Voice/craft contracts: `Clippings/AGENTS.md`, `Clippings/01-Voice/voice-fingerprint.md`,
+  `Clippings/02-Rules/anti-ai-tells.md`. File mechanics: root `CLAUDE.md`.
+
+## Blog Python tooling (all of `*.py` here are for blogs)
+All stdlib-only unless noted. All currently exist and are up to date.
+
+| File | Purpose | Notes |
+|------|---------|-------|
+| `scripts/publish-batch.py` | **Canonical** publisher. Pushes blog markdown to the live REST endpoint (`/api/blog/publish`). Modes: explicit files, `--today`, `--date YYYY-MM-DD`, `--json`. | Has a **truncation/completeness gate** — refuses to publish posts that end mid-sentence (the bug that shipped 3 cut-off posts on 2026-06-02); override with `--force`. Flexible blog-dir + API-key lookup (env vars → key files). |
+| `scripts/publish-batch-inline.py` | Minimal publisher for *today's* batch only. Globs `TTML-Blog/YYYY-MM-DD-*.md` and POSTs each. | Stripped-down sibling of the canonical script; key only from `BLOG_PUBLISH_API_KEY` or `~/.ttml-publish-key`. |
+| `scripts/harvest-questions.py` | **Playwright** scraper → 15–20 blog title candidates per run. Sources: Reddit (old.reddit), FindQuestions, AlsoAsked, Google News. | Requires Playwright (not stdlib-only). Writes `.claude/daily-titles-YYYY-MM-DD.md`, then auto-syncs via `sync-titles-to-master.py`. |
+| `scripts/sync-titles-to-master.py` | Merges every `.claude/daily-titles-YYYY-MM-DD.md` into `.claude/all-daily-titles.md` (grouped by date, newest first), then deletes the per-day files. | Idempotent. `--keep-per-day` to retain dailies; `--claude-dir` / `--out` overrides. Single-source-of-truth pattern. |
+| `Clippings/08-Drafts/publish-batch.FIXED.py` | **Stale build artifact** — an earlier copy of the publisher. Differs from (is older than) `scripts/publish-batch.py`. | Do not run note ops on it (per CLAUDE.md). `scripts/publish-batch.py` is the one to use; consider this one a historical artifact. |
+
+PowerShell helpers also live in `scripts/` (`boot-readiness.ps1`,
+`ttml-keep-awake.ps1`, `register-wake-task.ps1`, `wol-check.ps1`,
+`check-keepawake.ps1`) — Windows automation/keep-awake for the publishing box.
+
+## `.claude/` state files (blog memory/state)
+- `all-daily-titles.md` — rolling master of harvested title candidates (maintained by `sync-titles-to-master.py`).
+- `published-topics.md` — log of topics already published (dedupe source).
+- `citation-scores.md` — citation/quality scoring data.
+- `theme-weights.json` — theme rotation weights for batch planning.
+- `memory.md` — this file.
+
+## Publishing workflow (typical day)
+1. (optional) `python scripts/harvest-questions.py` → fresh title candidates into `.claude/`.
+2. Draft posts in voice → save into `TTML-Blog/` as `YYYY-MM-DD-<slug>.md`.
+3. `python scripts/publish-batch.py --dir TTML-Blog --today` (or `--date …`).
+   - The completeness gate blocks truncated posts; fix the ending or `--force`.
+4. Commit. (A 30-min git auto-commit also runs — make complete edits.)
+
+## Conventions to remember
+- Internal links are `[[wikilinks]]`; external are `[text](url)`.
+- Use the `obsidian` CLI for anything touching links/frontmatter/file location
+  (the app must be running). Direct file edits only for in-place body text and
+  non-note files like everything in `.claude/`.
+- Keep `__pycache__/` gitignored; never run note ops on `Clippings/08-Drafts/`
+  build artifacts.
