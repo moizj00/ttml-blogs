@@ -87,6 +87,35 @@ check 0 "$?" "master file built with merged titles"
 [ ! -f "$CDIR/daily-titles-2026-01-01.md" ]
 check 0 "$?" "per-day file deleted after merge"
 
+echo "== 6. publish-queue.py buffer (seed → pending → drain; blocked stays buffered) =="
+export TTML_PUBLISH_LEDGER="$WORK/ledger.json"
+QDIR="$WORK/qblog"; mkdir -p "$QDIR"
+cat > "$QDIR/2026-06-01-old.md" <<'MDEOF'
+---
+title: "Old"
+---
+# Old
+A complete older post.
+MDEOF
+python3 "$SCRIPTS/publish-queue.py" --dir "$QDIR" >/dev/null 2>&1
+check 1 "$?" "queue refuses to drain without a ledger (no mass re-publish)"
+python3 "$SCRIPTS/publish-queue.py" --dir "$QDIR" --seed >/dev/null 2>&1
+check 0 "$?" "queue --seed baselines existing posts"
+cat > "$QDIR/2026-06-05-good.md" <<'MDEOF'
+---
+title: "Good"
+---
+# Good
+A complete new post.
+MDEOF
+printf -- '---\ntitle: "T"\n---\n# T\nstops mid sentence at' > "$QDIR/2026-06-04-trunc.md"
+out=$(python3 "$SCRIPTS/publish-queue.py" --dir "$QDIR" 2>&1); rc=$?
+echo "$out" | sed 's/^/    /'
+check 1 "$rc" "drain exits 1 while a post stays buffered"
+echo "$out" | grep -q "\[OK\] 200 2026-06-05-good.md"; check 0 "$?" "good post published via mock"
+python3 "$SCRIPTS/publish-queue.py" --dir "$QDIR" --status 2>&1 | grep -q "pending: 2026-06-04-trunc.md"
+check 0 "$?" "truncated post still buffered after drain (not discarded)"
+
 echo
 echo "RESULT: $pass passed, $fail failed"
 [ "$fail" -eq 0 ]

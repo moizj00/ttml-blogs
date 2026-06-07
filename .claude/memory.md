@@ -19,7 +19,8 @@ All stdlib-only unless noted. All currently exist and are up to date.
 
 | File | Purpose | Notes |
 |------|---------|-------|
-| `scripts/publish-batch.py` | **Canonical** publisher. Pushes blog markdown to the live REST endpoint (`/api/blog/publish`). Modes: explicit files, `--today`, `--date YYYY-MM-DD`, `--json`. | Has a **truncation/completeness gate** — refuses to publish posts that end mid-sentence (the bug that shipped 3 cut-off posts on 2026-06-02); override with `--force`. Flexible blog-dir + API-key lookup (env vars → key files). |
+| `scripts/publish-queue.py` | **Buffer-aware publisher — use this for routine publishing.** Tracks publish state in `.claude/publish-ledger.json` and drains pending ("buffer") posts oldest-first so written-but-unpublished posts are never discarded. | Wraps `publish-batch.py` (same gate + POST). `--seed` once to baseline; `--status` to inspect; refuses to drain without a ledger (no mass re-publish). Failed/blocked posts stay buffered for next run. |
+| `scripts/publish-batch.py` | **Underlying** publisher engine. Pushes blog markdown to the live REST endpoint (`/api/blog/publish`). Modes: explicit files, `--today`, `--date YYYY-MM-DD`, `--json`. | Has a **truncation/completeness gate** — refuses to publish posts that end mid-sentence (the bug that shipped 3 cut-off posts on 2026-06-02); override with `--force`. Flexible blog-dir + API-key lookup (env vars → key files). |
 | `scripts/publish-batch-inline.py` | Minimal publisher for *today's* batch only. Globs `TTML-Blog/YYYY-MM-DD-*.md` and POSTs each. | Stripped-down sibling of the canonical script; key only from `BLOG_PUBLISH_API_KEY` or `~/.ttml-publish-key`. |
 | `scripts/harvest-questions.py` | **Playwright** scraper → 15–20 blog title candidates per run. Sources: Reddit (old.reddit), FindQuestions, AlsoAsked, Google News. | Requires Playwright (not stdlib-only). Writes `.claude/daily-titles-YYYY-MM-DD.md`, then auto-syncs via `sync-titles-to-master.py`. |
 | `scripts/sync-titles-to-master.py` | Merges every `.claude/daily-titles-YYYY-MM-DD.md` into `.claude/all-daily-titles.md` (grouped by date, newest first), then deletes the per-day files. | Idempotent. `--keep-per-day` to retain dailies; `--claude-dir` / `--out` overrides. Single-source-of-truth pattern. |
@@ -39,9 +40,18 @@ PowerShell helpers also live in `scripts/` (`boot-readiness.ps1`,
 ## Publishing workflow (typical day)
 1. (optional) `python scripts/harvest-questions.py` → fresh title candidates into `.claude/`.
 2. Draft posts in voice → save into `TTML-Blog/` as `YYYY-MM-DD-<slug>.md`.
-3. `python scripts/publish-batch.py --dir TTML-Blog --today` (or `--date …`).
-   - The completeness gate blocks truncated posts; fix the ending or `--force`.
+3. **Publish via the buffer** so any earlier unpublished posts go out first:
+   `python scripts/publish-queue.py` (first time ever: `--seed` once to baseline).
+   - It drains pending posts oldest-first; the completeness gate skips truncated
+     posts and **keeps them buffered** for the next run (never discarded). `--force`
+     to override the gate.
 4. Commit. (A 30-min git auto-commit also runs — make complete edits.)
+
+> **Buffer rule (important):** publishing must always drain the buffer first. A
+> blog written but not successfully published stays pending in
+> `.claude/publish-ledger.json` and is published on the next run before/with new
+> work — it is never skipped or thrown away. Always publish through
+> `publish-queue.py`, not `publish-batch.py` directly, or the ledger drifts.
 
 ## Conventions to remember
 - Internal links are `[[wikilinks]]`; external are `[text](url)`.

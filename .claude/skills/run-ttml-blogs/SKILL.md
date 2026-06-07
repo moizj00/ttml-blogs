@@ -47,6 +47,35 @@ It checks: `--help` works; a **complete** post publishes (200 via mock); a
 `sync-titles` merges daily title files into `all-daily-titles.md` then deletes
 the per-day files.
 
+## Publish with the buffer (recommended) — `publish-queue.py`
+Use this instead of `publish-batch.py` for routine publishing. It guarantees that
+**written-but-unpublished posts are never lost**: it tracks publish state in a
+ledger (`.claude/publish-ledger.json`) and on every run **drains the buffer
+(pending posts) oldest-first**, marking a post published only after a 2xx. A post
+that fails or is blocked by the truncation gate **stays in the buffer** for the
+next run instead of being discarded.
+
+First-time setup (once) — baseline existing posts so they aren't re-published:
+```bash
+python3 scripts/publish-queue.py --seed          # no network; marks current posts published
+```
+Then, routine publishing (drains pending first, then new posts — they're all just
+"pending"):
+```bash
+python3 scripts/publish-queue.py --status        # show buffer (no network)
+python3 scripts/publish-queue.py                 # drain: publish all pending, oldest-first
+```
+- Exit 0 only when the buffer is fully drained; exit 1 if anything is still pending
+  (failed/blocked) so automation knows to retry.
+- Refuses to drain with no ledger (prevents mass re-publish of the 200+ posts).
+- Honors the same `TTML_PUBLISH_ENDPOINT` / `BLOG_PUBLISH_API_KEY` as
+  `publish-batch.py`, and the same completeness gate (`--force` to skip).
+- `TTML_PUBLISH_LEDGER` overrides the ledger path (used by the smoke test).
+
+> Make `publish-queue.py` the single publishing entry point. If you publish via
+> `publish-batch.py` directly, the ledger won't record it and the queue may later
+> treat that post as pending again.
+
 ## Direct invocation — individual tools
 Run a single CLI directly (set a dummy key + local endpoint to stay off prod):
 
@@ -64,15 +93,18 @@ python3 scripts/sync-titles-to-master.py --claude-dir /tmp/sometitles --keep-per
 ```
 
 ## Run (human / real publish path)
-To actually publish today's batch to the live site, provide a **real** key and
-leave the endpoint at its production default:
+To actually publish to the live site, provide a **real** key and leave the
+endpoint at its production default. Prefer the buffer-aware queue so any
+previously-unpublished posts go out first:
 
 ```bash
 export BLOG_PUBLISH_API_KEY=<real key>          # or ~/.ttml-publish-key
-python3 scripts/publish-batch.py --dir TTML-Blog --today
+python3 scripts/publish-queue.py --seed         # first time only (baseline)
+python3 scripts/publish-queue.py                # drain buffer → publish pending
 ```
-`--force` skips the truncation gate. Exits 0 only if every file returned 2xx.
-(Not run here — it writes to production.)
+Legacy one-shot (no buffer tracking): `python3 scripts/publish-batch.py --dir
+TTML-Blog --today`. Both honor `--force` to skip the truncation gate. (Not run
+here — they write to production.)
 
 ## Gotchas (learned by running it)
 - **Key is loaded before anything else.** `publish-batch.py` calls `load_key()`
