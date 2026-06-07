@@ -1,0 +1,61 @@
+name: Blog Master — daily review
+
+# Self-learning blog reviewer. Runs the Claude CLI headless once a day, critiques
+# live posts on talk-to-my-lawyer.com/blog against the vault's craft standards,
+# and pushes dated remarks to .claude/memory.md. Zero infra — no host needed.
+#
+# Setup: add repo secret ANTHROPIC_API_KEY (Settings → Secrets and variables →
+# Actions). Optionally add a repo *variable* CLAUDE_MODEL (e.g. claude-sonnet-4-6).
+# NOTE: scheduled runs only fire once this workflow is on the default branch.
+
+on:
+  schedule:
+    - cron: "0 13 * * *"   # 13:00 UTC daily
+  workflow_dispatch: {}      # manual "Run workflow" button
+
+permissions:
+  contents: write            # lets the built-in GITHUB_TOKEN commit + push
+
+concurrency:
+  group: blog-master
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run review pass
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+        run: |
+          claude -p "$(cat blog-master/review-prompt.md)" \
+            --permission-mode acceptEdits \
+            --allowedTools "WebFetch,WebSearch,Read,Edit,Grep,Glob" \
+            ${CLAUDE_MODEL:+--model "$CLAUDE_MODEL"} \
+            --max-turns 50
+
+      - name: Commit & push remarks
+        run: |
+          if git diff --quiet -- .claude/memory.md; then
+            echo "No changes to .claude/memory.md — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .claude/memory.md
+          git commit -m "Blog Master: daily review $(date -u +%F)"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"

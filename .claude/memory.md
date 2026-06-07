@@ -62,10 +62,13 @@ posts and append a dated entry below. Heavier tools (`/deep-research`, the
 worth deeper work — to control cost. Each entry is committed + pushed so
 learnings persist.
 
-**How it runs (durable).** Packaged as a Docker container in `blog-master/` that
-runs the `claude` CLI headless once a day on an always-on host: it syncs the
-repo, reviews via `blog-master/review-prompt.md`, and pushes remarks here. See
-`blog-master/README.md`. Cadence: **daily, deeper** — each cycle reviews a
+**How it runs (durable).** Two delivery paths, both running the same
+`blog-master/review-prompt.md`:
+- **GitHub Action** — `.github/workflows/blog-master.yml`, daily cron, zero infra.
+  Needs repo secret `ANTHROPIC_API_KEY`; pushes via the built-in token. (Fires
+  only once on the default branch.)
+- **Docker** — `blog-master/` container for an always-on host (`restart: always`).
+See `blog-master/README.md`. Cadence: **daily, deeper** — each cycle reviews a
 rotating subset of 3 posts and does a citation-check deep-dive on the weakest.
 (An in-session Monitor heartbeat was the earlier stopgap; superseded by the
 container because an in-session loop dies on container reclaim.)

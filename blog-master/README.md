@@ -70,7 +70,20 @@ blog-master/
 └── README.md
 ```
 
-## Alternative: GitHub Action (no host needed)
-For a server-free durable schedule, a `.github/workflows/blog-master.yml` on a
-`schedule:` cron can run the same review using repo secrets `ANTHROPIC_API_KEY`
-and the built-in `GITHUB_TOKEN`. Ask and it can be generated.
+## Alternative: GitHub Action (no host needed) ✅ included
+A server-free durable schedule lives at `.github/workflows/blog-master.yml`. It
+runs the same `review-prompt.md` on a daily cron, committing remarks with the
+built-in `GITHUB_TOKEN` — no Docker host required.
+
+Setup (one secret):
+1. Repo **Settings → Secrets and variables → Actions → New repository secret**:
+   `ANTHROPIC_API_KEY` = your Anthropic key.
+2. (Optional) Add a repo **variable** `CLAUDE_MODEL` (e.g. `claude-sonnet-4-6`).
+3. Merge this branch so the workflow is on the **default branch** — GitHub only
+   fires `schedule:` triggers from the default branch.
+4. Run it on demand any time via **Actions → Blog Master — daily review → Run
+   workflow**.
+
+Docker vs Action: both run the identical review. Use the **Action** if you want
+zero infrastructure; use **Docker** if you'd rather run it on your own host (e.g.
+to keep the Anthropic key off GitHub, or run more often than scheduled cron allows).
