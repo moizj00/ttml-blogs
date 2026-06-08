@@ -30,36 +30,61 @@ CLAUDE_DIR = REPO_ROOT / ".claude"
 
 # ── CONFIG ─────────────────────────────────────────────────────────────────────
 
-# Reddit: subreddits to browse (new posts) + keyword searches per sub
-REDDIT_NEW_SUBS = ["legaladvice", "landlord", "Entrepreneur", "California", "legal"]
+# Reddit: subreddits to browse (new posts) + keyword searches per sub.
+# Broadened across every TTML barrel so the unique-title pool stays deep:
+# legal-general, tenant/landlord, small business/freelance, contractor, consumer/debt.
+REDDIT_NEW_SUBS = [
+    "legaladvice", "legaladvicecanada", "smallclaims",
+    "landlord", "Tenant", "renters",
+    "Entrepreneur", "smallbusiness", "freelance",
+    "Contractor", "HomeImprovement", "personalfinance",
+    "California", "legal",
+]
 REDDIT_SEARCHES = [
-    ("legaladvice", "california letter"),
-    ("legaladvice", "CA demand"),
-    ("landlord",    "california notice"),
-    ("landlord",    "california eviction"),
-    ("California",  "legal letter"),
-    ("legal",       "california demand"),
+    ("legaladvice",   "california letter"),
+    ("legaladvice",   "CA demand"),
+    ("legaladvice",   "cease and desist"),
+    ("landlord",      "california notice"),
+    ("landlord",      "security deposit"),
+    ("Tenant",        "deposit return letter"),
+    ("smallbusiness", "unpaid invoice"),
+    ("freelance",     "client won't pay"),
+    ("Contractor",    "payment dispute"),
+    ("California",    "legal letter"),
+    ("legal",         "california demand"),
+    ("personalfinance", "money owed letter"),
 ]
 
-# FindQuestions: mix of broad (gets hits) + specific (best quality)
+# FindQuestions: mix of broad (gets hits) + specific (best quality), every barrel.
 FINDQUESTIONS_TERMS = [
-    "demand letter",
-    "lawyer letter",
-    "legal letter",
-    "demand letter california",
-    "attorney letter tenant",
-    "cease and desist",
-    "legal notice california",
-    "contractor payment dispute",
-    "tenant rights letter",
-    "landlord legal notice",
+    # demand letters
+    "demand letter", "demand letter california", "how to write a demand letter",
+    "demand letter unpaid invoice", "demand letter security deposit",
+    # cease & desist / IP
+    "cease and desist", "cease and desist trademark", "dmca takedown notice",
+    "stop using my photos",
+    # contractor / construction
+    "contractor payment dispute", "contractor didn't finish work",
+    "contractor down payment refund",
+    # tenant / landlord
+    "tenant rights letter", "landlord legal notice", "landlord won't return deposit",
+    "notice to vacate",
+    # money owed / freelance / business
+    "letter to collect money owed", "freelancer unpaid client",
+    "breach of contract letter", "refund demand letter",
+    # generic / brand
+    "lawyer letter", "legal letter", "attorney letter tenant", "legal notice california",
 ]
 
 ALSOASKED_TERMS = [
     "demand letter california",
-    "lawyer letter tenant california",
+    "how to write a demand letter",
     "cease and desist letter california",
+    "dmca takedown notice",
+    "lawyer letter tenant california",
     "legal letter contractor payment",
+    "letter to recover security deposit",
+    "demand letter for unpaid invoice",
 ]
 
 GOOGLE_NEWS_TERMS = [
@@ -67,6 +92,8 @@ GOOGLE_NEWS_TERMS = [
     "tenant rights california legal",
     "cease and desist california",
     "contractor dispute california",
+    "small claims court california",
+    "security deposit law california",
 ]
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
