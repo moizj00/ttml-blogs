@@ -7,6 +7,11 @@
 **/__pycache__/
 *.pyc
 
+# Daily harvester/curation artifacts (regenerated each run; durable state lives
+# in all-daily-titles.md, published-topics.md, and published-slugs.txt)
+.claude/daily-titles-*.md
+.claude/curated-titles-*.md
+
 # Obsidian UI state / churn (not content)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
