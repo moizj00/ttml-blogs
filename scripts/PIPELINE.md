@@ -105,3 +105,16 @@ Queue-ready posts are written to `blog-queue/` as `status: draft` with a
 `publish_after` date, then released by `drip-publish.py` (3/day). See
 `scripts/SCHEDULING.md` for cadence and `drip-publish.py --help` for release
 mechanics.
+
+## Final publish target — the ttml-app blog page
+
+This repo is **source/staging only**. The live blog is the **ttml-app blog page**
+(`talk-to-my-lawyer.com/blog`). Publishing always goes through the app's REST
+API — `POST https://talk-to-my-lawyer.com/api/blog/publish` (the app's
+`server/blogPublishRoute.ts`), which upserts into Supabase, purges the CDN cache,
+and recalculates reading time. The app then serves the page from Supabase.
+
+So the markdown files here never render the live site directly — they are the
+input to that API. `publish-batch.py` and `drip-publish.py` both POST to it
+(override with `TTML_PUBLISH_ENDPOINT`). This is why the post never "appears"
+just by living in `TTML-Blog/`: it is live only once the API has accepted it.

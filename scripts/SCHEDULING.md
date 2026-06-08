@@ -39,19 +39,24 @@ Or release manually any time:
 > `python scripts/drip-publish.py --count 3`        (live)
 > `python scripts/drip-publish.py --dry-run`        (vet + preview, no POST)
 
-## Why the repo is canonical now
+## Where things live vs. where they publish
 
-All pipeline tooling and the queue live in the git repo
-(`C:\Users\moizjmj\ttml-blog`): `curate-titles.py`, `uniqueness-gate.py`,
-`drip-publish.py`, `blog-queue/`. The generation routine writes plain markdown
-straight into `blog-queue/` (no Obsidian-CLI dependency — the queue is a build
-staging area, not part of the note graph).
+- **Source / staging**: this git repo (`C:\Users\moizjmj\ttml-blog`) — all
+  tooling (`curate-titles.py`, `uniqueness-gate.py`, `drip-publish.py`) and the
+  `blog-queue/`. The generation routine writes plain markdown straight into
+  `blog-queue/` (no Obsidian-CLI dependency — the queue is a build staging area).
+- **Final publish target**: the **ttml-app blog page** at
+  `talk-to-my-lawyer.com/blog`. `drip-publish.py` POSTs each released post to the
+  app's REST API (`POST /api/blog/publish` → Supabase → CDN purge); the ttml-app
+  then serves the live page. The markdown here is the *input* to that API, never
+  the live render. See `scripts/PIPELINE.md` → "Final publish target".
 
-> NOTE — vault/repo divergence to reconcile: the legacy live vault
-> `C:\home\moizjmj\Obsidian\root` (144 posts) and this repo's `TTML-Blog/`
-> (217 posts) have drifted apart and are not linked. The repo is the fuller,
-> canonical copy. Decide whether the vault should be re-synced from the repo or
-> retired; until then, treat the repo as source of truth.
+> NOTE — the legacy live Obsidian vault `C:\home\moizjmj\Obsidian\root`
+> (144 posts) and this repo's `TTML-Blog/` (217 posts) have drifted apart and are
+> not linked. This is a **staging** concern only — it does NOT affect the live
+> site, which is served by the ttml-app from Supabase regardless of either
+> markdown copy. The repo is the fuller, canonical source; decide whether to
+> re-sync the vault from it or retire the vault.
 
 ## Staggering publish_after
 
