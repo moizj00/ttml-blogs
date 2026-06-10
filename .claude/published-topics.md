@@ -258,3 +258,16 @@ Agent: check this file before writing to avoid duplicate topics.
 - Owed More Than $12,500? Your Options When a California Dispute Exceeds the Small Claims Limit (LONG)
 - They Responded to Your Demand Letter — How to Negotiate and Close the Settlement in California (LONG)
 - How Long Do You Have to Sue in California? Statutes of Limitations for Every Common Dispute (2026 Guide) (LONG)
+
+## 2026-06-09 — Tuesday (Contractor / Construction)
+
+- contractor-walked-off-job-california (SHORT, contract-disputes)
+- california-contractor-deposit-limit-1000-rule (SHORT, contract-disputes)
+- stop-payment-notice-california-contractor (SHORT, contract-disputes)
+- claim-against-contractor-license-bond-california (SHORT, construction-law)
+- how-to-file-cslb-complaint-against-contractor-california (SHORT, construction-law)
+- change-orders-california-construction-disputes-2026 (LONG, construction-law)
+- subcontractor-guide-getting-paid-california-2026 (LONG, construction-law)
+- sb-440-sb-61-california-construction-payment-laws-2026 (LONG, construction-law)
+- contractor-abandoned-project-california-legal-playbook (LONG, construction-law)
+- verbal-change-orders-california-construction (LONG, construction-law)
