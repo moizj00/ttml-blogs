@@ -20,11 +20,17 @@ Sixty days have passed. You've sent reminders. You've followed up by email. And 
 
 After 30 days, an unpaid invoice is overdue. After 60 days, it's a problem. After 90, it becomes genuinely hard to collect without escalation. California's statute of limitations for written contracts is four years (Code of Civil Procedure § 337), so the legal clock is long — but the practical window for easy collection is much shorter.
 
+| Days overdue | What it means | Right move |
+|---|---|---|
+| 30 days | Overdue — may be oversight | Friendly written reminder |
+| 60 days | A pattern, not an accident | Formal attorney demand letter |
+| 90+ days | Collection gets materially harder | Demand letter now, small claims if ignored |
+
 Clients who ignore invoices often do so because they don't believe you'll take action. The moment they see that you're willing to escalate, most will pay or at least negotiate. A formal demand letter is the first step that changes the dynamic.
 
 ## Step 1: Send a Formal Written Demand
 
-A demand letter is a formal written notice that you are owed money and will take legal action if the debt isn't paid by a specific deadline. It's not a lawsuit — it's a warning that a lawsuit is possible.
+A [demand letter](/blog/what-is-a-demand-letter-for-unpaid-invoices) is a formal written notice that you are owed money and will take legal action if the debt isn't paid by a specific deadline. It's not a lawsuit — it's a warning that a lawsuit is possible.
 
 An effective demand letter for an unpaid invoice should include:
 

@@ -26,7 +26,7 @@ A well-drafted demand letter does several things at once:
 
 **Sets a firm deadline.** Most demand letters give the recipient 7 to 14 days to pay or respond in writing. A clear deadline creates urgency that open-ended requests never do.
 
-**States the consequence.** The letter tells the client precisely what you will do if they don't pay: file in California small claims court (which handles disputes up to $12,500 for individuals under CCP § 116.220), initiate civil litigation, or both. A credible, specific threat of legal action changes the calculus for most non-paying clients.
+**States the consequence.** The letter tells the client precisely what you will do if they don't pay: file in California small claims court (which handles disputes up to $12,500 for individuals under CCP § 116.221), initiate civil litigation, or both. A credible, specific threat of legal action changes the calculus for most non-paying clients.
 
 ## Why Is an Attorney-Signed Letter More Effective Than a DIY Version?
 
@@ -44,7 +44,7 @@ Anyone can write a letter demanding payment — but a letter on attorney letterh
 
 A demand letter is the right move when the invoice is clearly overdue and the client is unresponsive or stalling, you have documentation of the work completed and the agreement, the amount is too significant to write off but you'd rather resolve it without court, or you want to establish a clear formal record before filing suit.
 
-You might go straight to small claims court instead if you've already sent a formal demand and the client ignored it, or if the client has explicitly refused to pay and you're ready to file immediately. For more on which option fits, see our breakdown of [demand letter vs. small claims court](/blog/2026-05-14-small-claims-court-vs-demand-letter-california).
+You might go straight to small claims court instead if you've already sent a formal demand and the client ignored it, or if the client has explicitly refused to pay and you're ready to file immediately. For more on which option fits, see our breakdown of [demand letter vs. small claims court](/blog/small-claims-court-vs-demand-letter-california).
 
 For most freelancers and small business owners in California, the attorney demand letter is the right first formal step. Courts expect it, opposing parties take it seriously, and it often ends the dispute before it ever needs to go further.
 

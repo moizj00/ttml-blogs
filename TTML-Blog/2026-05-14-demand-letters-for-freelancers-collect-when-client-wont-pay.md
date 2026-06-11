@@ -14,7 +14,7 @@ status: published
 
 You're a freelancer. You did the work, sent the invoice, followed up twice, and still nothing. The client is either ignoring you, inventing a vague dispute after the fact, or simply dragging their feet hoping you'll give up.
 
-**In California, a formal attorney demand letter is one of the fastest and most cost-effective ways for freelancers to collect unpaid fees** — and you don't need to already have a lawyer on retainer to get one. Understanding [what a demand letter actually contains](/blog/2026-05-14-what-is-a-demand-letter-for-unpaid-invoices) is the first step.
+**In California, a formal attorney demand letter is one of the fastest and most cost-effective ways for freelancers to collect unpaid fees** — and you don't need to already have a lawyer on retainer to get one. Understanding [what a demand letter actually contains](/blog/what-is-a-demand-letter-for-unpaid-invoices) is the first step.
 
 ## Why Freelancers Are Especially Vulnerable to Non-Payment
 
@@ -34,7 +34,9 @@ A well-drafted demand letter tailored to a freelance situation will:
 
 **Set a specific deadline.** Typically 7 to 14 days. A deadline creates urgency. "Please pay at your earliest convenience" gets ignored; "you have until [specific date]" does not.
 
-**State the consequence clearly.** Filing in California small claims court (up to $12,500 for individuals) or civil court for larger amounts. Clients who understand you are willing to file — and have the documentation to back it up — tend to pay.
+**State the consequence clearly.** Filing in California small claims court (up to $12,500 for individuals under Code of Civil Procedure § 116.221) or civil court for larger amounts. Clients who understand you are willing to file — and have the documentation to back it up — tend to pay.
+
+> **Statute spotlight — CCP § 337:** California gives you four years from breach to enforce a written contract (two years for oral agreements under § 339). The legal window is long, but the practical collection window is short — act while your documentation is fresh.
 
 ## The Situations Where an Attorney Letter Is Most Effective
 

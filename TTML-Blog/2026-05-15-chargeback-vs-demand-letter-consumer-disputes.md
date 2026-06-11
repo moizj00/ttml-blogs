@@ -12,7 +12,16 @@ status: published
 
 # Credit Card Chargeback vs. Demand Letter: Which Is Better for Getting Your Money Back?
 
+**Short answer:** Use a chargeback for simple credit-card disputes within 60 days of the statement date. Use a demand letter for everything else — older disputes, non-card payments, larger amounts, or service problems — because it invokes California consumer law and has no 60-day window.
+
 When a business takes your money and won't make things right, you essentially have two tools available before you step into a courtroom: a credit card chargeback and a demand letter. Both can work. But they operate through entirely different channels, carry different risks, and work better for different kinds of disputes.
+
+| Factor | Chargeback | Demand letter |
+|---|---|---|
+| Deadline | 60 days from statement date (Fair Credit Billing Act) | 2–4 years (California statutes of limitation) |
+| Payment methods | Credit card only | Any — cash, check, debit, transfer |
+| Who decides | Your card issuer's policies | California law (small claims if ignored) |
+| Maximum recovery | Original charge amount | Damages plus possible CLRA penalties |
 
 ## How a Chargeback Works
 
@@ -39,9 +48,9 @@ Chargebacks work especially well for online purchases from sellers you have no o
 
 Use a demand letter when the chargeback window has passed, when you paid by a method other than credit card, when the amount is substantial, or when the dispute involves something more nuanced than a missing package.
 
-Consider a home appliance repair that was done poorly and caused additional damage. You paid $1,200 by debit card three months ago. The chargeback window is closed, and the issue isn't a simple "product not received" — it's a service that was performed negligently. A demand letter citing breach of contract and the CLRA gives you a clear legal path that the chargeback process can't replicate.
+Consider a home appliance repair that was done poorly and caused additional damage. You paid $1,200 by debit card three months ago. The chargeback window is closed, and the issue isn't a simple "product not received" — it's a service that was performed negligently. A demand letter citing breach of contract and the California Consumer Legal Remedies Act (Civil Code Section 1750 et seq.) gives you a clear legal path that the chargeback process can't replicate. If [the company is refusing a refund outright](/blog/company-refuses-refund-california-options), the letter is usually the strongest first move.
 
-Demand letters also work when you want to preserve the option of collecting statutory damages. Under the CLRA, successful plaintiffs can recover actual damages plus additional penalties. A chargeback only recovers the original charge amount. If the business's conduct was particularly bad — repeated deceptive practices, bait-and-switch tactics — the demand letter opens the door to larger recovery.
+Demand letters also work when you want to preserve the option of collecting statutory damages. Under the CLRA (Civil Code Section 1780), successful plaintiffs can recover actual damages, and courts can award additional relief including punitive damages in appropriate cases. A chargeback only recovers the original charge amount. If the business's conduct was particularly bad — repeated deceptive practices, bait-and-switch tactics — the demand letter opens the door to larger recovery.
 ## Can You Do Both?
 
 Yes, with a caveat. You can file a chargeback and send a demand letter simultaneously, but if the chargeback succeeds first, your demand letter becomes moot for that specific charge. Some consumers file the chargeback for speed and send the demand letter as a backup, especially when they're not confident the card company will rule in their favor.

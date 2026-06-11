@@ -12,7 +12,9 @@ status: published
 
 # The Company Refuses to Give Me a Refund — What Can I Do in California?
 
-If a business took your money and won't give it back, California law gives you several options to recover it — and most of them don't require a lawyer or a courtroom. A well-written demand letter is often the single most effective first step.
+**Short answer:** A "no refunds" sign doesn't override California law. If the product was defective, misrepresented, or never delivered, you likely have a claim under the CLRA — and a formal demand letter citing the specific statute is usually the fastest way to get your money back without court.
+
+If a business took your money and won't give it back, California law gives you several options to recover it — and most of them don't require a lawyer or a courtroom. A [well-written demand letter](/blog/what-is-a-consumer-demand-letter) is often the single most effective first step.
 
 ## Why Companies Refuse Refunds (and Why It Doesn't Always Matter)
 
@@ -26,6 +28,8 @@ Not every bad purchase qualifies for a forced refund, but several common scenari
 If the product was defective or substantially different from what was advertised, you likely have a claim. California Civil Code Section 1770 lists over two dozen specific deceptive practices that trigger consumer protection. If the company promised a service and didn't deliver it — or delivered something materially different — that's a breach of contract, full stop.
 
 Return policies also matter. Under California Civil Code Section 1723, if a store doesn't conspicuously post its refund policy, customers can return most items within 30 days for a full refund. If the store posted a policy but buried it in fine print or placed it where no reasonable person would see it, the same rule applies.
+
+> **Statute spotlight — Civil Code § 1723:** If a California store doesn't conspicuously post its refund policy, you can return most new, unused items within 30 days for a full refund. The burden of clear disclosure is on the store, not on you.
 
 ## The Demand Letter: Your Strongest First Move
 

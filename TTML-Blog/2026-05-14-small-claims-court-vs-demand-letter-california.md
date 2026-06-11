@@ -18,7 +18,7 @@ Your client hasn't paid. You've followed up. Now you're weighing your real optio
 
 ## How California Small Claims Court Works
 
-Small claims court in California is designed for people without attorneys — the "people's court" for disputes involving relatively modest amounts. For individuals, the current limit is **$12,500** (California Code of Civil Procedure Section 116.220). For most corporations and LLCs, it's $6,250. Filing fees range from about $30 to $75 depending on the claim amount.
+Small claims court in California is designed for people without attorneys — the "people's court" for disputes involving relatively modest amounts. For individuals, the current limit is **$12,500** (California Code of Civil Procedure Section 116.221). For most corporations and LLCs, it's $6,250 (Section 116.220). Filing fees range from about $30 to $75 depending on the claim amount.
 
 Here's the realistic timeline:
 
@@ -36,7 +36,7 @@ Here's the realistic timeline:
 
 ## How a Formal Attorney Demand Letter Works
 
-A demand letter is a formal written notice — signed by a licensed California attorney — that states what the other party owes, the legal basis for the claim, and what legal action follows if payment isn't received by a specific deadline (usually 7 to 14 days).
+A [demand letter](/blog/what-is-a-demand-letter-for-unpaid-invoices) is a formal written notice — signed by a licensed California attorney — that states what the other party owes, the legal basis for the claim, and what legal action follows if payment isn't received by a specific deadline (usually 7 to 14 days).
 
 The practical process:
 

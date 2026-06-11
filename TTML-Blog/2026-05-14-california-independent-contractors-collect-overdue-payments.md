@@ -25,7 +25,7 @@ Before you do anything else, gather:
 - Any evidence of delivery — submitted files, emails confirming completion, client acknowledgment showing they accepted the work
 - A record of any previous payment reminders you've sent
 
-This documentation is the backbone of your claim. If you end up sending a demand letter or filing in small claims, every item above becomes evidence. For a full breakdown of what a demand letter should contain, see our guide on [what is a demand letter](/blog/new-01-what-is-a-demand-letter).
+This documentation is the backbone of your claim. If you end up sending a demand letter or filing in small claims, every item above becomes evidence. For a full breakdown of what a demand letter should contain, see our guide on [what is a demand letter for unpaid invoices](/blog/what-is-a-demand-letter-for-unpaid-invoices).
 
 ## Step 2: Make One Clear, Documented Informal Request
 
@@ -45,7 +45,14 @@ Under California law, independent contractors have the right to enforce written 
 
 California gives independent contractors several escalation paths if the demand letter doesn't produce results:
 
-**Small claims court:** For amounts up to $12,500 (for individuals), this is the fastest formal option. Filing fees are $30–$100 depending on the amount. You don't need an attorney to appear. Hearings typically happen within 20–70 days of filing.
+| Option | Amount range | Typical cost | Typical timeline |
+|---|---|---|---|
+| Small claims court | Up to $12,500 (individuals, CCP § 116.221) | $30–$75 filing fee | Hearing in 20–70 days |
+| Limited civil court | $12,500–$35,000 | Higher filing fees + optional attorney | Several months |
+| Collections agency | Any | 25–40% of recovery | Varies |
+| Mechanics' lien | Construction work on real property | Recording costs | Strict statutory deadlines |
+
+**Small claims court:** For amounts up to $12,500 for individuals (Code of Civil Procedure § 116.221), this is the fastest formal option. Filing fees are $30–$75 depending on the amount. You don't need an attorney to appear. Hearings typically happen within 20–70 days of filing.
 
 **Limited civil court:** For amounts between $12,500 and $35,000, this is the next tier. A bit more formal, but still manageable for straightforward payment disputes.
 

@@ -14,7 +14,7 @@ status: published
 
 You finished the work, delivered the project, and sent the invoice. Now it's 30, 60, maybe 90 days later — and your client has gone quiet. This is one of the most common and frustrating situations freelancers and small business owners face in California.
 
-**The short answer:** You have real options, and they escalate. Start with a formal written demand, then consider small claims court or civil litigation if the client still refuses to pay. A lawyer-signed demand letter often resolves the situation before it ever reaches a courtroom — and [understanding exactly what a demand letter does](/blog/2026-05-14-what-is-a-demand-letter-for-unpaid-invoices) will help you use it effectively.
+**The short answer:** You have real options, and they escalate. Start with a formal written demand, then consider small claims court or civil litigation if the client still refuses to pay. A lawyer-signed demand letter often resolves the situation before it ever reaches a courtroom — and [understanding exactly what a demand letter does](/blog/what-is-a-demand-letter-for-unpaid-invoices) will help you use it effectively.
 
 ## How Long Does a Client Have to Pay Before It Becomes a Legal Problem?
 
@@ -44,7 +44,7 @@ Most unpaid invoices follow a predictable arc. Here's how to move through it:
 
 **Step 3 — Attorney demand letter.** A formal letter signed by a licensed California attorney that states the amount owed, cites your agreement, and warns of legal action if payment is not received by a stated deadline. This is the step that gets clients' attention.
 
-**Step 4 — Small claims or civil court.** If the demand letter doesn't work, you can file in small claims court for amounts up to $12,500 (for individuals), or pursue a civil lawsuit for larger claims. You can read more about [how small claims and demand letters compare](/blog/2026-05-14-small-claims-court-vs-demand-letter-california) to decide which path fits your situation.
+**Step 4 — Small claims or civil court.** If the demand letter doesn't work, you can file in small claims court for amounts up to $12,500 (for individuals), or pursue a civil lawsuit for larger claims. You can read more about [how small claims and demand letters compare](/blog/small-claims-court-vs-demand-letter-california) to decide which path fits your situation.
 
 Most unpaid invoice situations resolve at Step 3. Clients who have been ignoring emails for weeks tend to respond to attorney correspondence within days — because a lawsuit on record costs far more than simply paying the invoice.
 

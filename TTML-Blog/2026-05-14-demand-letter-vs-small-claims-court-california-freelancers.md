@@ -31,6 +31,12 @@ You're owed $4,000. The client isn't responding. You've heard you can file in sm
 - Court appearance: required, usually at least a half-day
 - A judgment still needs to be separately collected — winning in court does not automatically mean the money appears in your account
 
+| Factor | Demand letter | Small claims court |
+|---|---|---|
+| Upfront cost | $50–$300 flat fee | $30–$75 filing + $50–$100 service |
+| Time to resolution | 7–14 days (if it works) | 20–70 days to hearing, plus collection |
+| Court appearance | None | Required |
+
 For a $4,000 dispute, the cost difference is modest — but the time and effort difference is significant. A demand letter can produce a result in under two weeks. Small claims takes months and requires you to show up.
 
 ## When Does the Demand Letter Win?
@@ -49,7 +55,7 @@ Small claims becomes the better primary option when:
 - The client disputes the facts and you need a neutral decision-maker
 - The client is judgment-proof (insolvent) and a letter won't move them regardless
 
-California small claims courts handle disputes up to $12,500 for individuals (with a limit of two claims over $2,500 per year). The process is designed for non-lawyers. You bring your contract, invoices, written communications, and your prior demand letter as evidence — and present your case to a judge.
+California small claims courts handle disputes up to $12,500 for individuals (Code of Civil Procedure § 116.221, with a limit of two claims over $2,500 per calendar year under § 116.231). The process is designed for non-lawyers. You bring your contract, invoices, written communications, and your prior demand letter as evidence — and present your case to a judge.
 
 ## The Practical Answer: Do Both, In Order
 
@@ -61,7 +67,7 @@ The best approach for most California freelancers:
 
 Judges look favorably on plaintiffs who tried to resolve disputes before filing. A documented attorney-drafted demand on the record demonstrates good faith and strengthens your position.
 
-For more on when escalating to a full lawsuit makes sense, see our breakdown of [demand letters vs. lawsuits](/blog/new-03-demand-letter-vs-lawsuit).
+For more on when escalating to a full lawsuit makes sense, see our guide on [how to sue someone who owes you money in California](/blog/how-to-sue-someone-who-owes-you-money-california).
 
 When a letter is the right tool: for virtually every unpaid invoice dispute under $12,500, a demand letter is the right first step — it's faster, cheaper, and resolves most cases before a courthouse ever gets involved.
 
