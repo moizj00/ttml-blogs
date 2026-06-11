@@ -12,13 +12,15 @@ status: published
 
 # What Is a Security Deposit Demand Letter and Does It Actually Get Results?
 
-A security deposit demand letter is a formal written notice sent to your landlord demanding the return of your deposit, citing the specific California statute they've violated, and setting a deadline to respond before you escalate to legal action. When done right — and signed by an attorney — it resolves a significant percentage of disputes before anyone sets foot in a courtroom.
+**Short answer: A security deposit demand letter is a formal written notice demanding your deposit back, citing California Civil Code § 1950.5 and setting a deadline before you escalate to small claims court. When done right — and signed by an attorney — it resolves many disputes before anyone sets foot in a courtroom.**
 
 ## What a Demand Letter Is (and Isn't)
 
 A demand letter is not a lawsuit. It's not filed with any court. It's a document you send directly to your landlord that does three things: states the facts of the dispute, identifies the law they've violated, and tells them exactly what needs to happen to avoid further legal action.
 
 The key statute is California Civil Code § 1950.5, which governs security deposits. Under § 1950.5(g), a landlord has 21 days after a tenant vacates to either return the full deposit or send an itemized written statement of deductions with supporting receipts. Miss that deadline, make deductions that aren't authorized by the statute, or fail to send receipts — and they've violated the law.
+
+> **The statute at a glance — Civil Code § 1950.5:** subsection (b) limits what deposits may be used for; subsection (g) gives the landlord 21 days after move-out to refund or itemize with receipts; subsection (l) allows a bad-faith penalty of up to twice the amount wrongfully withheld.
 
 A well-drafted demand letter names the violation, calculates the amount owed, cites the potential bad-faith penalty under § 1950.5(l) (up to twice the amount wrongfully withheld), and gives the landlord a short window to make it right before you file in small claims court.
 
@@ -55,7 +57,7 @@ A meaningful minority of landlords ignore the letter entirely. At that point, yo
 
 ## When a Demand Letter Isn't Enough
 
-If the amount withheld is small and the landlord responds with outright denials and no legal basis, small claims court is the next step. The filing fee in California is $30–$75 depending on the amount, you don't need an attorney at the hearing, and judges in small claims cases hear security deposit disputes regularly. They know what Civil Code § 1950.5 says.
+If the amount withheld is small and the landlord responds with outright denials and no legal basis, small claims court is the next step. The filing fee in California is $30–$75 depending on the amount, you don't need an attorney at the hearing, and judges in small claims cases hear security deposit disputes regularly. They know what Civil Code § 1950.5 says. For a side-by-side of the two paths, see [small claims court vs. demand letter for a security deposit](/blog/small-claims-court-vs-demand-letter-security-deposit-california); if your landlord is flatly refusing, start with [what to do when a landlord refuses to return the deposit](/blog/landlord-refusing-return-security-deposit-california).
 
 The demand letter and small claims court aren't competing options — they're a sequence. Start with the letter. It resolves most disputes. If it doesn't, you go to court with a stronger case than you'd have if you'd filed immediately.
 

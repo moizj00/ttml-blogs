@@ -22,7 +22,7 @@ The difference is legal weight. A complaint email tells a business you're unhapp
 
 When that letter comes from a licensed attorney, the signal is even stronger. It tells the business that you've already consulted legal counsel — which means the next piece of mail they receive could be a court filing.
 
-Businesses process demand letters differently than customer complaints. A complaint goes to customer service. A demand letter goes to the legal department or the owner. That routing alone often produces results that months of emails and phone calls couldn't.
+Businesses process demand letters differently than customer complaints. A complaint goes to customer service. A demand letter goes to the legal department or the owner. That routing alone often produces results that months of emails and phone calls couldn't. If your dispute is specifically about getting money back, see [what a refund demand letter includes](/blog/refund-demand-letter-explained); for unpaid-invoice disputes, see [what a demand letter for unpaid invoices does](/blog/what-is-a-demand-letter-for-unpaid-invoices).
 
 ## When Should You Send a Consumer Demand Letter?
 
@@ -35,6 +35,15 @@ If you've sent at least one written request for resolution and the business has 
 ## What Should a Consumer Demand Letter Include?
 
 A well-drafted consumer demand letter covers six elements. It identifies you and the business by full legal names. It describes the transaction — what you paid, when, and what was supposed to happen. It states the breach — what the business failed to do. It cites the legal basis for your claim, whether that's breach of contract, the Consumer Legal Remedies Act, or another statute. It specifies the remedy you're seeking — typically a dollar amount. And it sets a deadline, usually 14 to 30 days.
+
+| Element | What it covers |
+|---|---|
+| Parties | Full legal names of you and the business |
+| Transaction | What you paid, when, and what was promised |
+| Breach | What the business failed to do |
+| Legal basis | Breach of contract, CLRA (Civ. Code § 1750 et seq.), or another statute |
+| Remedy | The specific dollar amount or action demanded |
+| Deadline | Usually 14–30 days (30 days minimum before filing a CLRA claim, per § 1782) |
 
 The tone should be factual, not angry. Courts may eventually see this letter. Every sentence should read like evidence, because it is.
 

@@ -3,7 +3,7 @@ title: "My Landlord Is Refusing to Return My Security Deposit — What Can I Do 
 slug: landlord-refusing-return-security-deposit-california
 description: "California law gives landlords 21 days to return your deposit. If they miss that or make illegal deductions, you can sue for double the amount withheld."
 excerpt: "California Civil Code § 1950.5 gives your landlord exactly 21 days after you move out to return your security deposit or send an itemized list of deductions. If they don't, you have the right to sue — and may be entitled to double the amount wrongfully withheld."
-date: 2026-05-18
+date: 2026-06-11
 author: "Talk to My Lawyer Team"
 category: landlord-tenant
 tags: ["security deposit", "landlord", "tenant rights", "california", "civil code 1950.5"]
@@ -12,11 +12,11 @@ status: published
 
 # My Landlord Is Refusing to Return My Security Deposit — What Can I Do in California?
 
-California law gives your landlord exactly 21 days to return your security deposit after you move out. If they miss that deadline — or make deductions they can't legally justify — you have real options, including a bad-faith penalty worth twice the amount wrongfully withheld.
+**Short answer: California law gives your landlord exactly 21 days after move-out to return your security deposit or send an itemized statement with receipts (Civ. Code § 1950.5(g)). If they miss the deadline or make deductions they can't justify, send a written demand — and if that fails, small claims court can award up to twice the amount wrongfully withheld as a bad-faith penalty.**
 
 ## What Does California Law Actually Say About Security Deposits?
 
-California Civil Code § 1950.5 is one of the most tenant-friendly security deposit statutes in the country. It does several things at once: it caps how much a landlord can charge (two months' rent for an unfurnished unit, three months' for furnished), it defines exactly what a deposit can be used for, and it sets strict rules about when and how the money must be returned.
+California Civil Code § 1950.5 is one of the most tenant-friendly security deposit statutes in the country. It does several things at once: it caps how much a landlord can charge (since July 1, 2024, AB 12 limits deposits to one month's rent, furnished or not — landlords who are natural persons owning no more than two rental properties with four or fewer total units may charge up to two months'), it defines exactly what a deposit can be used for, and it sets strict rules about when and how the money must be returned.
 
 The statute isn't advisory. It's mandatory. A landlord who ignores it faces real financial consequences — not just the obligation to return what's owed, but potentially a penalty on top.
 
@@ -37,6 +37,15 @@ That last category matters less than the first three. The key phrase you'll see 
 
 A landlord who charges you $800 to repaint an apartment you lived in for three years is almost certainly making an illegal deduction. Paint fades. It has a useful life. You aren't obligated to leave the unit looking like it did the day you moved in.
 
+| Deduction | Legal? |
+|---|---|
+| Unpaid rent | Yes (§ 1950.5(b)(1)) |
+| Damage beyond normal wear and tear | Yes, with receipts (§ 1950.5(b)(2)) |
+| Cleaning to restore move-in condition | Yes, with receipts (§ 1950.5(b)(3)) |
+| Faded paint, minor carpet wear, small nail holes | No — normal wear and tear |
+| Vague "cleaning fee" without receipts | No |
+| Routine repainting after a multi-year tenancy | Almost never |
+
 ## What Happens When a Landlord Violates the 21-Day Rule?
 
 This is where Civil Code § 1950.5(l) comes in. If a court finds that the landlord acted in bad faith — either by failing to return the deposit on time or by making deductions they knew weren't justified — the court can award you the actual amount wrongfully withheld plus a penalty of up to twice that amount.
@@ -50,9 +59,9 @@ Before you file anything, send a written demand. This accomplishes two things: i
 
 The demand should cite the statute, state the amount you're owed, set a response deadline — typically 14 days — and make clear what your next step will be if they don't respond.
 
-A demand letter signed by an attorney carries more weight than one you write yourself. Landlords who shrug off a tenant's email tend to respond differently when they receive a letter on law firm letterhead that cites specific code sections and outlines potential liability. For more on what makes a demand letter effective, see [what a demand letter actually does](/blog/2026-05-14-what-is-a-demand-letter-for-unpaid-invoices-does-it-work).
+A demand letter signed by an attorney carries more weight than one you write yourself. Landlords who shrug off a tenant's email tend to respond differently when they receive a letter on law firm letterhead that cites specific code sections and outlines potential liability. For more on what makes a demand letter effective, see [what a demand letter actually does](/blog/what-is-a-demand-letter-for-unpaid-invoices).
 
-If the demand doesn't resolve it, small claims court is your next option. California small claims handles disputes up to $12,500 for individuals (CCP § 116.220), which covers most security deposit cases. Filing costs around $30–$75, you don't need a lawyer in the room, and you can typically get a hearing date within 30–70 days.
+If the demand doesn't resolve it, small claims court is your next option. California small claims handles disputes up to $12,500 for individuals (CCP § 116.221), which covers most security deposit cases. Filing costs around $30–$75, you don't need a lawyer in the room, and you can typically get a hearing date within 30–70 days.
 
 ## The Documentation That Wins Cases
 

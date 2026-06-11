@@ -38,9 +38,15 @@ A demand letter from a licensed California attorney accomplishes that without th
 
 The cost comparison is stark. A flat-fee demand letter service might cost $100 to $500. The same dispute taken through full litigation could cost $5,000 to $20,000. If the demand letter resolves it — and it frequently does — you've saved thousands of dollars and months of time.
 
+| Option | Typical cost | Typical timeline |
+|---|---|---|
+| Flat-fee attorney demand letter | $100–$500 | 1–4 weeks |
+| Small claims court (up to $12,500) | $30–$75 filing fee | 30–70 days to hearing |
+| Civil litigation with full representation | $10,000–$50,000+ | A year or more |
+
 ## What About Small Claims Court?
 
-California small claims court handles claims up to $12,500 for individuals. Filing fees are low ($30 to $75), and you represent yourself — no attorney required. It's a good option, but it has limitations.
+California small claims court handles claims up to $12,500 for individuals (Code of Civil Procedure § 116.221). Filing fees are low ($30 to $75), and you represent yourself — no attorney required. It's a good option, but it has limitations.
 
 You have to serve the other party and show up for a hearing, which can take 30 to 70 days to schedule. If the other party doesn't pay after a judgment, you still have to collect — which is a separate process. And if your claim exceeds $12,500, small claims court can't help.
 
@@ -54,7 +60,7 @@ For a $3,000 unpaid invoice: a $300 demand letter that has a strong chance of pr
 
 For a $50,000 contract dispute: a demand letter is still worth sending first — it might resolve the matter, and if it doesn't, it establishes your seriousness. But budget for the possibility of full representation.
 
-The mistake most people make is assuming their only options are "do nothing" or "hire a lawyer for full litigation." The demand letter sits between those extremes, and for many California consumers and small business owners, it's the right tool.
+The mistake most people make is assuming their only options are "do nothing" or "hire a lawyer for full litigation." The demand letter sits between those extremes, and for many California consumers and small business owners, it's the right tool. For current letter pricing, see [how much a demand letter costs in California](/blog/how-much-does-demand-letter-cost-california-2026); for the court side of the math, see [small claims court in California: costs, limits, and process](/blog/small-claims-court-california-2026-costs-limits-process-worth-it).
 
 Your first letter from Talk to My Lawyer is free — [start here](https://talk-to-my-lawyer.com/).
 

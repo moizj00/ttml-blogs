@@ -3,7 +3,7 @@ title: "I Paid for a Service That Was Never Completed — What Are My Rights in 
 slug: paid-for-service-never-completed-california-rights
 description: "Paid a business for a service that was never delivered? California consumers have clear legal rights to demand a refund. Here's what to do."
 excerpt: "When you pay for a service in California and the provider never delivers, you have legal options. A formal demand letter is usually the fastest path to getting your money back — before small claims court becomes necessary."
-date: 2026-05-15
+date: 2026-06-11
 author: "Talk to My Lawyer Team"
 category: consumer-complaints
 tags: ["refund", "service not rendered", "consumer rights", "california", "demand letter"]
@@ -24,15 +24,22 @@ First, general contract law. Under Civil Code Section 1689(b)(2), you can cancel
 
 Second, California's consumer protection statutes. The Consumer Legal Remedies Act (Civil Code Section 1750 et seq.) prohibits businesses from advertising services they don't intend to provide. If you can show the business engaged in deceptive practices — say, taking deposits for jobs they were never going to perform — you may be entitled to additional damages beyond the refund itself.
 
-For services costing $750 or more, the Home Improvement Contract requirements under Business and Professions Code Section 7159 impose additional obligations on contractors, including written contracts and limits on upfront deposits.
+For home improvement work costing more than $500, the Home Improvement Contract requirements under Business and Professions Code Section 7159 impose additional obligations on contractors, including written contracts and limits on upfront deposits.
 
 ## How to Get Your Money Back: The Step-by-Step Process
 
 Before you file anything in court, there's a practical escalation path that works for most consumer disputes in California.
 
+| Step | Tool | Typical timeline |
+|---|---|---|
+| 1 | Written refund request | Response within 7–14 days |
+| 2 | Attorney demand letter | 14–30 day deadline |
+| 3 | Small claims court (up to $12,500) | Hearing in 30–70 days |
+| 4 | Civil suit or CSLB/DCA complaint | Months; for larger or licensed-contractor disputes |
+
 **Step 1 — Written demand.** Send the business a clear, dated letter or email stating what you paid, what was supposed to be delivered, and that you're requesting a full refund by a specific date. Keep it factual. Keep a copy.
 
-**Step 2 — Attorney demand letter.** If the business ignores you or stalls, a formal demand letter from a licensed California attorney changes the calculation. It signals that you've consulted legal counsel and that a lawsuit is the next step. Most businesses would rather refund $1,200 than defend a breach-of-contract claim.
+**Step 2 — Attorney demand letter.** If the business ignores you or stalls, a formal demand letter from a licensed California attorney changes the calculation. It signals that you've consulted legal counsel and that a lawsuit is the next step. Most businesses would rather refund $1,200 than defend a breach-of-contract claim. See [what a refund demand letter includes](/blog/refund-demand-letter-explained).
 
 **Step 3 — Small claims court.** For amounts up to $12,500 (individuals), California small claims court is designed for exactly this kind of dispute. Filing costs range from $30 to $75 depending on the claim amount. You don't need a lawyer to file, and hearings are typically scheduled within 30 to 70 days.
 
@@ -50,7 +57,7 @@ California's statute of limitations for written contracts is four years (CCP Sec
 
 ## When a Demand Letter Is the Right Move
 
-For most consumer refund disputes in the $500 to $10,000 range, a formal attorney demand letter is the highest-leverage first step. It's faster and cheaper than court. It creates a paper trail that strengthens your case if you do end up filing. And it works — businesses that have been ignoring your emails for weeks tend to respond to attorney correspondence within days.
+For most consumer refund disputes in the $500 to $10,000 range, a formal attorney demand letter is the highest-leverage first step. It's faster and cheaper than court. It creates a paper trail that strengthens your case if you do end up filing. And it works — businesses that have been ignoring your emails for weeks tend to respond to attorney correspondence within days. If the business has flatly refused, [your options when a company refuses a refund in California](/blog/company-refuses-refund-california-options) walks through the full decision tree.
 
 Your first letter from Talk to My Lawyer is free — [start here](https://talk-to-my-lawyer.com/).
 

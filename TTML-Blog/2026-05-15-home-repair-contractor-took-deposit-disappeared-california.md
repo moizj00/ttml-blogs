@@ -3,7 +3,7 @@ title: "Your Rights When a Home Repair Contractor Takes Your Deposit and Disappe
 slug: home-repair-contractor-took-deposit-disappeared-california
 description: "A California contractor took your money and vanished? Here's what the law says, what you can recover, and the steps to take right now."
 excerpt: "When a California home repair contractor takes your deposit and stops showing up, you have more legal leverage than you think. State licensing law, contractor deposit limits, and formal demand letters give homeowners real tools to recover their money."
-date: 2026-05-15
+date: 2026-06-11
 author: "Talk to My Lawyer Team"
 category: consumer-complaints
 tags: ["contractor", "home repair", "deposit", "california", "consumer rights", "CSLB"]
@@ -20,6 +20,13 @@ A California homeowner hires a contractor for a kitchen remodel. The contractor 
 
 California Business and Professions Code Section 7159.5 caps contractor down payments at $1,000 or 10% of the contract price — whichever is less. If your kitchen remodel contract is $50,000, the maximum legal deposit is $1,000, not $5,000.
 
+| Protection | Statute | What it means |
+|---|---|---|
+| Down payment cap | Bus. & Prof. Code § 7159.5 | Deposit limited to $1,000 or 10% of the contract price, whichever is less |
+| Written contract required | Bus. & Prof. Code § 7159 | Home improvement jobs over $500 need a written contract with license number and disclosures |
+| License bond | Bus. & Prof. Code § 7071.5 | Licensed contractors carry a $25,000 bond you can claim against |
+| Unlicensed-contractor disgorgement | Bus. & Prof. Code § 7031(b) | You can sue an unlicensed contractor to recover everything you paid |
+
 If a contractor collected more than the legal limit, that's already a violation of California licensing law — regardless of whether they started the work. This violation strengthens your legal position and can be the basis for a CSLB complaint, a civil lawsuit, or both.
 
 For home improvement contracts over $500, the contractor is also required to provide a written contract that includes the total price, a description of the work, the contractor's license number, and specific consumer disclosures. If you don't have a written contract, the contractor has violated another requirement of Section 7159.
@@ -30,9 +37,9 @@ The temptation is to wait and hope they come back. Don't. Every week you wait ma
 
 **Document everything immediately.** Photograph the job site as it stands. Save every text message, email, voicemail, and receipt. If you paid by check or electronic transfer, get copies of the transaction records. Note the exact dates of every communication and every missed appointment.
 
-**Verify the contractor's license.** Go to the CSLB website (cslb.ca.gov) and search by name or license number. If the contractor is unlicensed, you have additional legal remedies — including recovery from the CSLB's Contractors Recovery Fund (Business and Professions Code Section 7071.5 et seq.), which can reimburse homeowners up to $25,000 per claim for damages caused by unlicensed contractors.
+**Verify the contractor's license.** Go to the CSLB website (cslb.ca.gov) and search by name or license number. If the contractor is licensed, every California contractor must carry a $25,000 contractor's license bond (Business and Professions Code Section 7071.5) — you can file a claim directly with the bonding company for damages caused by license-law violations. If the contractor is unlicensed, you have a different and powerful remedy: Section 7031(b) lets you sue to recover all compensation you paid, and contracting without a license is a misdemeanor you can report to the CSLB.
 
-**Send a formal demand letter.** Put the contractor on legal notice with a written demand stating the deposit amount, the work that was never performed, a deadline for refund (14 to 30 days is standard), and a statement that you intend to pursue legal action if the deadline passes. An attorney-signed demand letter carries significantly more weight than an email.
+**Send a formal demand letter.** Put the contractor on legal notice with a written demand stating the deposit amount, the work that was never performed, a deadline for refund (14 to 30 days is standard), and a statement that you intend to pursue legal action if the deadline passes. An attorney-signed demand letter carries significantly more weight than an email — see [what a demand letter actually does](/blog/what-is-a-demand-letter-for-unpaid-invoices) for how these letters work.
 
 **File a CSLB complaint.** If the contractor is licensed, the CSLB can investigate, mediate the dispute, and take disciplinary action — including license suspension or revocation. Filing is free and can be done online.
 
@@ -46,7 +53,7 @@ Contractors who have been confronted sometimes claim the deposit went toward mat
 
 Potentially. If you had to hire a replacement contractor at a higher price to complete the abandoned work, the difference is a recoverable damage. If the contractor's abandonment caused consequential damages — say, water damage because a half-demolished bathroom was left exposed — those are recoverable too. And if the contractor was unlicensed, Business and Professions Code Section 7031(b) may entitle you to disgorgement of all compensation paid, not just the deposit.
 
-The key is documentation. Courts award what you can prove.
+The key is documentation. Courts award what you can prove. If your contractor took payment and never finished the work, the escalation path in [contractor took money and didn't finish the job](/blog/contractor-took-money-didnt-finish-job-california-legal-options) covers your full set of options.
 
 Your first letter from Talk to My Lawyer is free — [start here](https://talk-to-my-lawyer.com/).
 
